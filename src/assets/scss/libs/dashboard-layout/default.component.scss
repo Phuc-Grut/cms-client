@@ -1,0 +1,36 @@
+#container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.template{
+  height: 100%;
+  width: 100%;
+}
+
+#defaultLayout {
+  padding: 10px;
+}
+
+.e-panel-container {
+  vertical-align: middle;
+  //font-weight: 600;
+  font-size: 14px;
+  //text-align: center;
+}
+.e-panel-header {
+  .e-header-text{
+    text-align: center;
+  }
+}
+
+.e-dashboardlayout.e-control.e-responsive{
+  position: relative !important;
+  z-index: 10 !important
+}
+
+#dashboardHome{
+  [dir=ltr] .e-dashboardlayout.e-control .e-panel.e-panel-transition{
+    height: auto !important;
+  }
+}
